@@ -8,7 +8,9 @@
      "url": "https://github.com/shinya4250/electron_chat"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "babel --watch --out-dir .tmp src",
+    "start": "electron ."
   },
   "keywords": [],
   "author": "",
